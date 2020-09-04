@@ -17,9 +17,9 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753;
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
 	margin: 0;
 	padding: 0;
+	background-color: lightgreen;
 	}
 p {
 	margin-top: 0;
@@ -63,6 +63,12 @@ abbr {
 			border-bottom-style: dashed;
 			margin-left: 15px;
 	}
+text {
+	color: darkgray;
+	}
+link {
+	color: orange;
+	}
 
 
 /* specific divs */
@@ -85,10 +91,10 @@ header h1 {
 	width: 219px;
 	height: 87px;
 	float: left;
-
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
+	color: darkblue;
 	}
 header h2 {
 	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left;
@@ -97,7 +103,7 @@ header h2 {
 	width: 200px;
 	height: 18px;
 	float: right;
-
+	color: darkblue;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
@@ -105,6 +111,7 @@ header h2 {
 header {
 	padding-top: 20px;
 	height: 87px;
+	color: darkblue;
 }
 
 .summary {
@@ -206,4 +213,31 @@ footer a:link, footer a:visited {
 	right: 0;
 	width: 148px;
 	height: 110px;
+	}
+
+	h1 {
+	color: darkblue;
+	}
+
+	.info {
+		font-weight: bolder;
+		font-size: 15px;
+		text-align: center;
+	}
+	.info_div {
+		text-align: center;
+	}
+
+	.front_page {
+		text-align: center;
+	}
+	.chicago {
+		text-align: center;
+	}
+	#link_1 {
+		color: blue;
+	}
+	#welcome {
+		font-style: italic;
+		text-align: center;
 	}
